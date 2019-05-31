@@ -1,0 +1,79 @@
+body {
+    width: 100%; 
+    background-image: url("../images/backgroundimgOrbit.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.jumbotron {
+    background-image: url("../images/backgroundimgOrbit.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    height: 60px;
+    text-align: center;
+    font-family: 'VT323', monospace; 
+    border-top: 4px solid goldenrod;
+    border-bottom: 4px solid goldenrod;
+    border-right: 3px solid goldenrod;
+    border-left: 3px solid goldenrod;
+    width: 100%;
+
+}
+
+hr {
+    color: aqua;
+    
+    border: dashed 1px; 
+}
+
+p {
+    font-family: fantasy; 
+}
+
+.game-content {
+    padding-top: 25px; 
+}
+
+.main-content {
+    
+    color: black;
+    height: 375px; 
+    text-align: center;
+    border-top: 4px solid goldenrod;
+    border-bottom: 4px solid goldenrod;
+    border-right: 3px solid goldenrod;
+    border-left: 3px solid goldenrod;
+    opacity: 25%;
+
+    
+}
+
+.footer {
+    background-color: #343a40;
+    color: black;
+    height: 60px;
+    text-align: center;
+    border-top: 4px solid goldenrod;
+    border-bottom: 4px solid goldenrod;
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+ 
+ }
+
+ h1 {
+     color: goldenrod;
+     
+
+ }
+
+ .footertext {
+     color: goldenrod;
+     font-family: 'Permanent Marker', cursive;
+ }

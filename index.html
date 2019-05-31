@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- link bootstrap, css, js -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="../Word-Guess-Game/assets/javascript/game.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<body>
+
+    <!--test code (v2)-->
+
+    <div class="jumbotron">
+        <h1>Word Guess Game</h1> 
+       
+   </div>
+
+    <div class="main-content">
+        <div class="game-content">
+            <form id="hangman">
+                    <input type="text" maxlength="1" minlength="1" name="letter" id="letter" placeholder="Guess a letter" />
+                    <button id="guess" name="guess" type="submit" value="Guess" onClick="gameFunction()">Guess</button>
+            </form>
+            <br>
+            <p>HINT! space related words</p>
+            <hr>
+            
+            <p id="remainingGuesses">Remaining Guesses:</p>
+
+            <hr>
+            <p id="wrongGuesses">Number of Wrong Guesses:</p>
+            
+            <hr>
+            <p id="winCount">Wins:</p>
+
+            <hr>
+            <p id="lossCount">Losses:</p>
+            
+            <hr>
+            <p id="output" class="output"></p>
+        </div>
+    </div>
+      
+      <!-- 
+          test code (v1)
+    <div class="container">
+            <div class="jumbotron">
+                 <h1>Hangman Game Name Goes Here</h1> 
+                 
+            </div>
+    </div>
+
+    <div class="container">
+        <div class="main-content">
+
+        </div>
+    </div>
+
+-->
+
+
+
+    <footer class="footer">
+            
+                <span class="footertext">
+                <h1>© 2019 Veazie Visions</h1>
+                </span>
+            
+    </footer>
+    
+</body>
+</html>
